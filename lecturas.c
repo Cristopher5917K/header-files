@@ -10,7 +10,7 @@ void leerProductos(char nombreProducto[][MAX_TEXT], float producto[], int cantid
         printf("Ingrese el precio del producto %d: ", i + 1);
         while (scanf("%f", &producto[i]) != 1 || producto[i] < 0) {
             while (getchar() != '\n');
-            printf("Valor inválido, intente de nuevo.\n");
+            printf("Valor invalido, intente de nuevo.\n");
             printf("Ingrese el precio del producto %d: ", i + 1);
         }
     }
