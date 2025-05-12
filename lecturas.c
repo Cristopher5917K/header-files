@@ -22,7 +22,7 @@ int leerCantidadProductos(char *mensaje, int minimoProductos) {
     printf("%s", mensaje);
     while (scanf("%d", &cantidadProdctos) != 1 || cantidadProdctos < minimoProductos) {
         while (getchar() != '\n');
-        printf("\nValor inválido, intente de nuevo.\n");
+        printf("\nValor invalido, intente de nuevo.\n");
         printf("%s", mensaje);
     }
 
